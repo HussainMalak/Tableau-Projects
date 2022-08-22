@@ -1,0 +1,3002 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0525.0851                               -->
+<workbook original-version='18.1' source-build='2022.1.2 (20221.22.0525.0851)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SymmetricLogAxis />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Snapchat Ads' inline='true' name='federated.0xz10na10jo7r70ztxfha03hdp1u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Snapchat Ads' name='textscan.0x3z2eu1gxwnbd1bpap2g1u3jxw6'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:\Users\hp\Downloads\Snapchat Ads.csv' dataRefreshTime='' directory='C:/Users/hp/Downloads' filename='C:/Users/hp/AppData/Local/Temp/TableauTemp/1wjuj580jdxmhp15l1zu81gjsmb0/Snapchat Ads.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0x3z2eu1gxwnbd1bpap2g1u3jxw6' name='Snapchat Ads.csv' table='[C:\Users\hp\Downloads\Snapchat Ads#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AZ2928:no:A1:AZ2928:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Ad ID' ordinal='0' />
+            <column datatype='string' name='Advanced Demographics' ordinal='1' />
+            <column datatype='string' name='AgeBracket' ordinal='2' />
+            <column datatype='string' name='BillingAddress' ordinal='3' />
+            <column datatype='string' name='Closed Date' ordinal='4' />
+            <column datatype='integer' name='No. of target critereas used' ordinal='5' />
+            <column datatype='integer' name='Number of Ads' ordinal='6' />
+            <column datatype='string' name='Globe' ordinal='7' />
+            <column datatype='real' name='% Impressions' ordinal='8' />
+            <column datatype='string' name='Calculation1' ordinal='9' />
+            <column datatype='string' name='Calculation2' ordinal='10' />
+            <column datatype='integer' name='Age' ordinal='11' />
+            <column datatype='integer' name='Interests ' ordinal='12' />
+            <column datatype='integer' name='Gender ' ordinal='13' />
+            <column datatype='integer' name='Language ' ordinal='14' />
+            <column datatype='integer' name='OS type ' ordinal='15' />
+            <column datatype='integer' name='Advanced demographics' ordinal='16' />
+            <column datatype='integer' name='Segments ' ordinal='17' />
+            <column datatype='integer' name='Location' ordinal='18' />
+            <column datatype='date' name='Year of AD' ordinal='19' />
+            <column datatype='real' name='Spend per Impression' ordinal='20' />
+            <column datatype='integer' name='Number of countries' ordinal='21' />
+            <column datatype='string' name='Icon' ordinal='22' />
+            <column datatype='integer' name='Total impressions' ordinal='23' />
+            <column datatype='string' name='CandidateBallotInformation' ordinal='24' />
+            <column datatype='string' name='Country' ordinal='25' />
+            <column datatype='string' name='Creative Properties' ordinal='26' />
+            <column datatype='string' name='CreativeUrl' ordinal='27' />
+            <column datatype='string' name='Electoral District' ordinal='28' />
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy hh:mm:ss a' name='EndDate' ordinal='29' />
+            <column datatype='string' name='Gender' ordinal='30' />
+            <column datatype='integer' name='Impressions' ordinal='31' />
+            <column datatype='string' name='Interests' ordinal='32' />
+            <column datatype='string' name='Language - Split 1' ordinal='33' />
+            <column datatype='string' name='Language - Split 2' ordinal='34' />
+            <column datatype='string' name='Language' ordinal='35' />
+            <column datatype='integer' name='Location Zip code' ordinal='36' />
+            <column datatype='integer' name='Location T' ordinal='37' />
+            <column datatype='integer' name='Location MA' ordinal='38' />
+            <column datatype='integer' name='Location ED' ordinal='39' />
+            <column datatype='integer' name='Location R' ordinal='40' />
+            <column datatype='string' name='Location Type' ordinal='41' />
+            <column datatype='string' name='Metro Area' ordinal='42' />
+            <column datatype='integer' name='Number of Records' ordinal='43' />
+            <column datatype='string' name='OS Type' ordinal='44' />
+            <column datatype='string' name='OrganizationName' ordinal='45' />
+            <column datatype='string' name='PayingAdvertiserName' ordinal='46' />
+            <column datatype='string' name='Region' ordinal='47' />
+            <column datatype='string' name='Segments' ordinal='48' />
+            <column datatype='integer' name='Spend' ordinal='49' />
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy hh:mm:ss a' name='StartDate' ordinal='50' />
+            <column datatype='string' name='Targeting Geo - Postal Code' ordinal='51' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0x3z2eu1gxwnbd1bpap2g1u3jxw6' name='Snapchat Ads.csv' table='[C:\Users\hp\Downloads\Snapchat Ads#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AZ2928:no:A1:AZ2928:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Ad ID' ordinal='0' />
+            <column datatype='string' name='Advanced Demographics' ordinal='1' />
+            <column datatype='string' name='AgeBracket' ordinal='2' />
+            <column datatype='string' name='BillingAddress' ordinal='3' />
+            <column datatype='string' name='Closed Date' ordinal='4' />
+            <column datatype='integer' name='No. of target critereas used' ordinal='5' />
+            <column datatype='integer' name='Number of Ads' ordinal='6' />
+            <column datatype='string' name='Globe' ordinal='7' />
+            <column datatype='real' name='% Impressions' ordinal='8' />
+            <column datatype='string' name='Calculation1' ordinal='9' />
+            <column datatype='string' name='Calculation2' ordinal='10' />
+            <column datatype='integer' name='Age' ordinal='11' />
+            <column datatype='integer' name='Interests ' ordinal='12' />
+            <column datatype='integer' name='Gender ' ordinal='13' />
+            <column datatype='integer' name='Language ' ordinal='14' />
+            <column datatype='integer' name='OS type ' ordinal='15' />
+            <column datatype='integer' name='Advanced demographics' ordinal='16' />
+            <column datatype='integer' name='Segments ' ordinal='17' />
+            <column datatype='integer' name='Location' ordinal='18' />
+            <column datatype='date' name='Year of AD' ordinal='19' />
+            <column datatype='real' name='Spend per Impression' ordinal='20' />
+            <column datatype='integer' name='Number of countries' ordinal='21' />
+            <column datatype='string' name='Icon' ordinal='22' />
+            <column datatype='integer' name='Total impressions' ordinal='23' />
+            <column datatype='string' name='CandidateBallotInformation' ordinal='24' />
+            <column datatype='string' name='Country' ordinal='25' />
+            <column datatype='string' name='Creative Properties' ordinal='26' />
+            <column datatype='string' name='CreativeUrl' ordinal='27' />
+            <column datatype='string' name='Electoral District' ordinal='28' />
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy hh:mm:ss a' name='EndDate' ordinal='29' />
+            <column datatype='string' name='Gender' ordinal='30' />
+            <column datatype='integer' name='Impressions' ordinal='31' />
+            <column datatype='string' name='Interests' ordinal='32' />
+            <column datatype='string' name='Language - Split 1' ordinal='33' />
+            <column datatype='string' name='Language - Split 2' ordinal='34' />
+            <column datatype='string' name='Language' ordinal='35' />
+            <column datatype='integer' name='Location Zip code' ordinal='36' />
+            <column datatype='integer' name='Location T' ordinal='37' />
+            <column datatype='integer' name='Location MA' ordinal='38' />
+            <column datatype='integer' name='Location ED' ordinal='39' />
+            <column datatype='integer' name='Location R' ordinal='40' />
+            <column datatype='string' name='Location Type' ordinal='41' />
+            <column datatype='string' name='Metro Area' ordinal='42' />
+            <column datatype='integer' name='Number of Records' ordinal='43' />
+            <column datatype='string' name='OS Type' ordinal='44' />
+            <column datatype='string' name='OrganizationName' ordinal='45' />
+            <column datatype='string' name='PayingAdvertiserName' ordinal='46' />
+            <column datatype='string' name='Region' ordinal='47' />
+            <column datatype='string' name='Segments' ordinal='48' />
+            <column datatype='integer' name='Spend' ordinal='49' />
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy hh:mm:ss a' name='StartDate' ordinal='50' />
+            <column datatype='string' name='Targeting Geo - Postal Code' ordinal='51' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AZ2928:no:A1:AZ2928:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ad ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ad ID]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Ad ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Advanced Demographics</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Advanced Demographics]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Advanced Demographics</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AgeBracket</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AgeBracket]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>AgeBracket</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BillingAddress</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BillingAddress]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>BillingAddress</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closed Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Closed Date]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Closed Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of target critereas used</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of target critereas used]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>No. of target critereas used</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Ads</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Ads]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Number of Ads</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Globe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Globe]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Globe</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Impressions]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>% Impressions</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calculation1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Calculation1]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Calculation1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calculation2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Calculation2]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Calculation2</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interests </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interests ]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Interests </remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gender ]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Gender </remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Language ]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Language </remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS type </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OS type ]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>OS type </remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Advanced demographics</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Advanced demographics]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Advanced demographics</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segments </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Segments ]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Segments </remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year of AD</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Year of AD]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Year of AD</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spend per Impression</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Spend per Impression]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Spend per Impression</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of countries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of countries]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Number of countries</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Icon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Icon]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Icon</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total impressions]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Total impressions</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CandidateBallotInformation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CandidateBallotInformation]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>CandidateBallotInformation</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Creative Properties</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Creative Properties]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Creative Properties</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreativeUrl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CreativeUrl]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>CreativeUrl</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electoral District</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electoral District]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Electoral District</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[EndDate]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>EndDate</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Impressions]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Impressions</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interests</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Interests]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Interests</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language - Split 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language - Split 1]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Language - Split 1</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language - Split 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language - Split 2]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Language - Split 2</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Zip code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location Zip code]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location Zip code</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location T</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location T]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location T</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location MA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location MA]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location MA</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location ED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location ED]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location ED</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location R</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location R]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location R</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location Type]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Location Type</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metro Area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Metro Area]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Metro Area</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OS Type]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>OS Type</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrganizationName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OrganizationName]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>OrganizationName</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PayingAdvertiserName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PayingAdvertiserName]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>PayingAdvertiserName</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segments]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Segments</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spend</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Spend]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Spend</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[StartDate]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>StartDate</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Targeting Geo - Postal Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Targeting Geo - Postal Code]</local-name>
+            <parent-name>[Snapchat Ads.csv]</parent-name>
+            <remote-alias>Targeting Geo - Postal Code</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' hidden='true' name='[% Impressions]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Advanced Demographics]' role='dimension' type='nominal' />
+      <column caption='Age Bracket' datatype='string' name='[AgeBracket]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Age]' role='measure' type='quantitative' />
+      <column caption='Billing Address' datatype='string' name='[BillingAddress]' role='dimension' type='nominal' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Calculation1]' role='dimension' type='nominal' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Calculation2]' role='dimension' type='nominal' />
+      <column caption='Candidate Ballot Information' datatype='string' name='[CandidateBallotInformation]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Closed Date]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Creative Url' datatype='string' name='[CreativeUrl]' role='dimension' type='nominal' />
+      <column caption='End Date' datatype='datetime' name='[EndDate]' role='dimension' type='ordinal' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Globe]' role='dimension' type='nominal' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Icon]' role='dimension' type='nominal' />
+      <column datatype='string' default-role='measure' default-type='ordinal' hidden='true' name='[Interests]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Language - Split 1]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Language - Split 2]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Location Zip code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[No. of target critereas used]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Number of Ads]' role='measure' type='quantitative' />
+      <column caption='Organization Name' datatype='string' name='[OrganizationName]' role='dimension' type='nominal' />
+      <column caption='Paying Advertiser Name' datatype='string' name='[PayingAdvertiserName]' role='dimension' type='nominal' />
+      <column caption='Start Date' datatype='datetime' name='[StartDate]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Targeting Geo - Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='date' hidden='true' name='[Year of AD]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Snapchat Ads.csv' datatype='table' name='[__tableau_internal_object_id__].[Snapchat Ads.csv_5D61E006BBE249B9BC3FDBC51982A52E]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Country, Targeting Geo - Postal Code'>
+          <field>[Country]</field>
+          <field>[Targeting Geo - Postal Code]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Snapchat Ads.csv' id='Snapchat Ads.csv_5D61E006BBE249B9BC3FDBC51982A52E'>
+            <properties context=''>
+              <relation connection='textscan.0x3z2eu1gxwnbd1bpap2g1u3jxw6' name='Snapchat Ads.csv' table='[C:\Users\hp\Downloads\Snapchat Ads#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AZ2928:no:A1:AZ2928:1' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Ad ID' ordinal='0' />
+                  <column datatype='string' name='Advanced Demographics' ordinal='1' />
+                  <column datatype='string' name='AgeBracket' ordinal='2' />
+                  <column datatype='string' name='BillingAddress' ordinal='3' />
+                  <column datatype='string' name='Closed Date' ordinal='4' />
+                  <column datatype='integer' name='No. of target critereas used' ordinal='5' />
+                  <column datatype='integer' name='Number of Ads' ordinal='6' />
+                  <column datatype='string' name='Globe' ordinal='7' />
+                  <column datatype='real' name='% Impressions' ordinal='8' />
+                  <column datatype='string' name='Calculation1' ordinal='9' />
+                  <column datatype='string' name='Calculation2' ordinal='10' />
+                  <column datatype='integer' name='Age' ordinal='11' />
+                  <column datatype='integer' name='Interests ' ordinal='12' />
+                  <column datatype='integer' name='Gender ' ordinal='13' />
+                  <column datatype='integer' name='Language ' ordinal='14' />
+                  <column datatype='integer' name='OS type ' ordinal='15' />
+                  <column datatype='integer' name='Advanced demographics' ordinal='16' />
+                  <column datatype='integer' name='Segments ' ordinal='17' />
+                  <column datatype='integer' name='Location' ordinal='18' />
+                  <column datatype='date' name='Year of AD' ordinal='19' />
+                  <column datatype='real' name='Spend per Impression' ordinal='20' />
+                  <column datatype='integer' name='Number of countries' ordinal='21' />
+                  <column datatype='string' name='Icon' ordinal='22' />
+                  <column datatype='integer' name='Total impressions' ordinal='23' />
+                  <column datatype='string' name='CandidateBallotInformation' ordinal='24' />
+                  <column datatype='string' name='Country' ordinal='25' />
+                  <column datatype='string' name='Creative Properties' ordinal='26' />
+                  <column datatype='string' name='CreativeUrl' ordinal='27' />
+                  <column datatype='string' name='Electoral District' ordinal='28' />
+                  <column datatype='datetime' date-parse-format='MM/dd/yyyy hh:mm:ss a' name='EndDate' ordinal='29' />
+                  <column datatype='string' name='Gender' ordinal='30' />
+                  <column datatype='integer' name='Impressions' ordinal='31' />
+                  <column datatype='string' name='Interests' ordinal='32' />
+                  <column datatype='string' name='Language - Split 1' ordinal='33' />
+                  <column datatype='string' name='Language - Split 2' ordinal='34' />
+                  <column datatype='string' name='Language' ordinal='35' />
+                  <column datatype='integer' name='Location Zip code' ordinal='36' />
+                  <column datatype='integer' name='Location T' ordinal='37' />
+                  <column datatype='integer' name='Location MA' ordinal='38' />
+                  <column datatype='integer' name='Location ED' ordinal='39' />
+                  <column datatype='integer' name='Location R' ordinal='40' />
+                  <column datatype='string' name='Location Type' ordinal='41' />
+                  <column datatype='string' name='Metro Area' ordinal='42' />
+                  <column datatype='integer' name='Number of Records' ordinal='43' />
+                  <column datatype='string' name='OS Type' ordinal='44' />
+                  <column datatype='string' name='OrganizationName' ordinal='45' />
+                  <column datatype='string' name='PayingAdvertiserName' ordinal='46' />
+                  <column datatype='string' name='Region' ordinal='47' />
+                  <column datatype='string' name='Segments' ordinal='48' />
+                  <column datatype='integer' name='Spend' ordinal='49' />
+                  <column datatype='datetime' date-parse-format='MM/dd/yyyy hh:mm:ss a' name='StartDate' ordinal='50' />
+                  <column datatype='string' name='Targeting Geo - Postal Code' ordinal='51' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Snapchat Ads (2) (WHOLE DATA)' inline='true' name='federated.1ou74zy1obi6oj11zciba0mhlt6g' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Snapchat Ads (2) (WHOLE DATA)' name='textscan.1w3455a1em1yq713ppmly0wwbh2m'>
+            <connection class='textscan' directory='C:/Users/hp/Downloads' filename='Snapchat Ads (2) (WHOLE DATA).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1w3455a1em1yq713ppmly0wwbh2m' name='Snapchat Ads (2) (WHOLE DATA).csv' table='[Snapchat Ads (2) (WHOLE DATA)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Ad ID (Snapchat Ads (4))' ordinal='0' />
+            <column datatype='string' name='Ad ID' ordinal='1' />
+            <column datatype='string' name='Advanced Demographics' ordinal='2' />
+            <column datatype='string' name='AgeBracket' ordinal='3' />
+            <column datatype='string' name='BillingAddress (Snapchat Ads (4))' ordinal='4' />
+            <column datatype='string' name='BillingAddress' ordinal='5' />
+            <column datatype='integer' name='Calculation1' ordinal='6' />
+            <column datatype='string' name='Dynamic tooltip' ordinal='7' />
+            <column datatype='integer' name='Calculation2' ordinal='8' />
+            <column datatype='integer' name='Percent of total' ordinal='9' />
+            <column datatype='integer' name='1' ordinal='10' />
+            <column datatype='string' name='CandidateBallotInformation (Snapchat Ads (4))' ordinal='11' />
+            <column datatype='string' name='CandidateBallotInformation' ordinal='12' />
+            <column datatype='string' name='Country (Snapchat Ads (4))' ordinal='13' />
+            <column datatype='string' name='Country' ordinal='14' />
+            <column datatype='string' name='Creative Properties (Snapchat Ads (4))' ordinal='15' />
+            <column datatype='string' name='Creative Properties' ordinal='16' />
+            <column datatype='string' name='CreativeUrl (Snapchat Ads (4))' ordinal='17' />
+            <column datatype='string' name='CreativeUrl' ordinal='18' />
+            <column datatype='string' name='Electoral District (Snapchat Ads (4))' ordinal='19' />
+            <column datatype='string' name='Electoral District' ordinal='20' />
+            <column datatype='string' name='EndDate (Snapchat Ads (4))' ordinal='21' />
+            <column datatype='string' name='EndDate' ordinal='22' />
+            <column datatype='string' name='Gender' ordinal='23' />
+            <column datatype='integer' name='Impressions (Snapchat Ads (4))' ordinal='24' />
+            <column datatype='integer' name='Impressions' ordinal='25' />
+            <column datatype='string' name='Interests' ordinal='26' />
+            <column datatype='string' name='Language' ordinal='27' />
+            <column datatype='string' name='Location Type (Snapchat Ads (4))' ordinal='28' />
+            <column datatype='string' name='Location Type' ordinal='29' />
+            <column datatype='string' name='Metro Area (Snapchat Ads (4))' ordinal='30' />
+            <column datatype='string' name='Metro Area' ordinal='31' />
+            <column datatype='integer' name='Number of Records' ordinal='32' />
+            <column datatype='string' name='OS Type (Snapchat Ads (4))' ordinal='33' />
+            <column datatype='string' name='OS Type' ordinal='34' />
+            <column datatype='string' name='OrganizationName (Snapchat Ads (4))' ordinal='35' />
+            <column datatype='string' name='OrganizationName' ordinal='36' />
+            <column datatype='string' name='PayingAdvertiserName (Snapchat Ads (4))' ordinal='37' />
+            <column datatype='string' name='PayingAdvertiserName' ordinal='38' />
+            <column datatype='real' name='Percent of total (copy)' ordinal='39' />
+            <column datatype='string' name='Pivot Field Names' ordinal='40' />
+            <column datatype='string' name='Pivot Field Values' ordinal='41' />
+            <column datatype='string' name='Region (Snapchat Ads (4))' ordinal='42' />
+            <column datatype='string' name='Region' ordinal='43' />
+            <column datatype='string' name='Segments' ordinal='44' />
+            <column datatype='integer' name='Spend (Snapchat Ads (4))' ordinal='45' />
+            <column datatype='integer' name='Spend' ordinal='46' />
+            <column datatype='string' name='StartDate (Snapchat Ads (4))' ordinal='47' />
+            <column datatype='string' name='StartDate' ordinal='48' />
+            <column datatype='string' name='Targeting Geo - Postal Code (Snapchat Ads (4))' ordinal='49' />
+            <column datatype='string' name='Targeting Geo - Postal Code' ordinal='50' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1w3455a1em1yq713ppmly0wwbh2m' name='Snapchat Ads (2) (WHOLE DATA).csv' table='[Snapchat Ads (2) (WHOLE DATA)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Ad ID (Snapchat Ads (4))' ordinal='0' />
+            <column datatype='string' name='Ad ID' ordinal='1' />
+            <column datatype='string' name='Advanced Demographics' ordinal='2' />
+            <column datatype='string' name='AgeBracket' ordinal='3' />
+            <column datatype='string' name='BillingAddress (Snapchat Ads (4))' ordinal='4' />
+            <column datatype='string' name='BillingAddress' ordinal='5' />
+            <column datatype='integer' name='Calculation1' ordinal='6' />
+            <column datatype='string' name='Dynamic tooltip' ordinal='7' />
+            <column datatype='integer' name='Calculation2' ordinal='8' />
+            <column datatype='integer' name='Percent of total' ordinal='9' />
+            <column datatype='integer' name='1' ordinal='10' />
+            <column datatype='string' name='CandidateBallotInformation (Snapchat Ads (4))' ordinal='11' />
+            <column datatype='string' name='CandidateBallotInformation' ordinal='12' />
+            <column datatype='string' name='Country (Snapchat Ads (4))' ordinal='13' />
+            <column datatype='string' name='Country' ordinal='14' />
+            <column datatype='string' name='Creative Properties (Snapchat Ads (4))' ordinal='15' />
+            <column datatype='string' name='Creative Properties' ordinal='16' />
+            <column datatype='string' name='CreativeUrl (Snapchat Ads (4))' ordinal='17' />
+            <column datatype='string' name='CreativeUrl' ordinal='18' />
+            <column datatype='string' name='Electoral District (Snapchat Ads (4))' ordinal='19' />
+            <column datatype='string' name='Electoral District' ordinal='20' />
+            <column datatype='string' name='EndDate (Snapchat Ads (4))' ordinal='21' />
+            <column datatype='string' name='EndDate' ordinal='22' />
+            <column datatype='string' name='Gender' ordinal='23' />
+            <column datatype='integer' name='Impressions (Snapchat Ads (4))' ordinal='24' />
+            <column datatype='integer' name='Impressions' ordinal='25' />
+            <column datatype='string' name='Interests' ordinal='26' />
+            <column datatype='string' name='Language' ordinal='27' />
+            <column datatype='string' name='Location Type (Snapchat Ads (4))' ordinal='28' />
+            <column datatype='string' name='Location Type' ordinal='29' />
+            <column datatype='string' name='Metro Area (Snapchat Ads (4))' ordinal='30' />
+            <column datatype='string' name='Metro Area' ordinal='31' />
+            <column datatype='integer' name='Number of Records' ordinal='32' />
+            <column datatype='string' name='OS Type (Snapchat Ads (4))' ordinal='33' />
+            <column datatype='string' name='OS Type' ordinal='34' />
+            <column datatype='string' name='OrganizationName (Snapchat Ads (4))' ordinal='35' />
+            <column datatype='string' name='OrganizationName' ordinal='36' />
+            <column datatype='string' name='PayingAdvertiserName (Snapchat Ads (4))' ordinal='37' />
+            <column datatype='string' name='PayingAdvertiserName' ordinal='38' />
+            <column datatype='real' name='Percent of total (copy)' ordinal='39' />
+            <column datatype='string' name='Pivot Field Names' ordinal='40' />
+            <column datatype='string' name='Pivot Field Values' ordinal='41' />
+            <column datatype='string' name='Region (Snapchat Ads (4))' ordinal='42' />
+            <column datatype='string' name='Region' ordinal='43' />
+            <column datatype='string' name='Segments' ordinal='44' />
+            <column datatype='integer' name='Spend (Snapchat Ads (4))' ordinal='45' />
+            <column datatype='integer' name='Spend' ordinal='46' />
+            <column datatype='string' name='StartDate (Snapchat Ads (4))' ordinal='47' />
+            <column datatype='string' name='StartDate' ordinal='48' />
+            <column datatype='string' name='Targeting Geo - Postal Code (Snapchat Ads (4))' ordinal='49' />
+            <column datatype='string' name='Targeting Geo - Postal Code' ordinal='50' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ad ID (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ad ID (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Ad ID (Snapchat Ads (4))</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ad ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ad ID]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Ad ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Advanced Demographics</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Advanced Demographics]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Advanced Demographics</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AgeBracket</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AgeBracket]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>AgeBracket</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BillingAddress (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BillingAddress (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>BillingAddress (Snapchat Ads (4))</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BillingAddress</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BillingAddress]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>BillingAddress</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calculation1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calculation1]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Calculation1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dynamic tooltip</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dynamic tooltip]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Dynamic tooltip</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calculation2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calculation2]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Calculation2</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent of total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Percent of total]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Percent of total</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>1</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CandidateBallotInformation (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CandidateBallotInformation (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>CandidateBallotInformation (Snapchat Ads (4))</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CandidateBallotInformation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CandidateBallotInformation]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>CandidateBallotInformation</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Country (Snapchat Ads (4))</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Creative Properties (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Creative Properties (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Creative Properties (Snapchat Ads (4))</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Creative Properties</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Creative Properties]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Creative Properties</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreativeUrl (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CreativeUrl (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>CreativeUrl (Snapchat Ads (4))</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreativeUrl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CreativeUrl]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>CreativeUrl</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electoral District (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electoral District (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Electoral District (Snapchat Ads (4))</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electoral District</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electoral District]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Electoral District</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndDate (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EndDate (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>EndDate (Snapchat Ads (4))</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndDate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EndDate]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>EndDate</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions (Snapchat Ads (4))</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Impressions (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Impressions (Snapchat Ads (4))</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Impressions]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Impressions</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interests</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Interests]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Interests</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Type (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location Type (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Location Type (Snapchat Ads (4))</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location Type]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Location Type</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metro Area (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Metro Area (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Metro Area (Snapchat Ads (4))</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metro Area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Metro Area]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Metro Area</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Type (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OS Type (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>OS Type (Snapchat Ads (4))</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OS Type]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>OS Type</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrganizationName (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OrganizationName (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>OrganizationName (Snapchat Ads (4))</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrganizationName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OrganizationName]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>OrganizationName</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PayingAdvertiserName (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PayingAdvertiserName (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>PayingAdvertiserName (Snapchat Ads (4))</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PayingAdvertiserName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PayingAdvertiserName]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>PayingAdvertiserName</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent of total (copy)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percent of total (copy)]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Percent of total (copy)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Region (Snapchat Ads (4))</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segments]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Segments</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spend (Snapchat Ads (4))</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Spend (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Spend (Snapchat Ads (4))</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spend</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Spend]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Spend</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartDate (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StartDate (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>StartDate (Snapchat Ads (4))</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartDate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StartDate]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>StartDate</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Targeting Geo - Postal Code (Snapchat Ads (4))</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Targeting Geo - Postal Code (Snapchat Ads (4))]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Targeting Geo - Postal Code (Snapchat Ads (4))</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Targeting Geo - Postal Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Targeting Geo - Postal Code]</local-name>
+            <parent-name>[Snapchat Ads (2) (WHOLE DATA).csv]</parent-name>
+            <remote-alias>Targeting Geo - Postal Code</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[1]' role='measure' type='quantitative' />
+      <column caption='Age Bracket' datatype='string' name='[AgeBracket]' role='dimension' type='nominal' />
+      <column caption='Billing Address' datatype='string' name='[BillingAddress]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Calculation1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Calculation2]' role='measure' type='quantitative' />
+      <column caption='PV not null values' datatype='integer' name='[Calculation_1298444132574486530]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if NOT (ISNULL([Pivot Field Values])) THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Pct of Total ' datatype='real' name='[Calculation_1298444132575100931]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([Calculation_1298444132574486530])/sum([Number of Records])' />
+      </column>
+      <column caption='Remainder of pie' datatype='real' name='[Calculation_1298444132575395844]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1-[Calculation_1298444132575100931]' />
+      </column>
+      <column caption='Pct of total 1' datatype='real' name='[Calculation_1298444132579782662]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([Calculation_1298444132574486530])/sum([Number of Records])' />
+      </column>
+      <column caption='Candidate Ballot Information' datatype='string' name='[CandidateBallotInformation]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Country (Snapchat Ads (4))]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Creative Url' datatype='string' name='[CreativeUrl]' role='dimension' type='nominal' />
+      <column caption='End Date' datatype='string' name='[EndDate]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Impressions (Snapchat Ads (4))]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Impressions]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+      <column caption='Organization Name' datatype='string' name='[OrganizationName]' role='dimension' type='nominal' />
+      <column caption='Paying Advertiser Name' datatype='string' name='[PayingAdvertiserName]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Percent of total (copy)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Percent of total]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Spend (Snapchat Ads (4))]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Spend]' role='measure' type='quantitative' />
+      <column caption='Start Date' datatype='string' name='[StartDate]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Targeting Geo - Postal Code (Snapchat Ads (4))]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='string' name='[Targeting Geo - Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Snapchat Ads (2) (WHOLE DATA).csv' datatype='table' name='[__tableau_internal_object_id__].[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[1]' derivation='Avg' name='[avg:1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[1]' derivation='Count' name='[cnt:1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[1]' derivation='CountD' name='[ctd:1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[1]' derivation='Min' name='[min:1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[1]' derivation='None' name='[none:1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[1]' derivation='Sum' name='[sum:1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation1]' derivation='Sum' name='[sum:Calculation1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation2]' derivation='Sum' name='[sum:Calculation2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1298444132574486530]' derivation='Sum' name='[sum:Calculation_1298444132574486530:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Impressions (Snapchat Ads (4))]' derivation='Sum' name='[sum:Impressions (Snapchat Ads (4)):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Impressions]' derivation='Sum' name='[sum:Impressions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Percent of total (copy)]' derivation='Sum' name='[sum:Percent of total (copy):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Percent of total]' derivation='Sum' name='[sum:Percent of total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Spend (Snapchat Ads (4))]' derivation='Sum' name='[sum:Spend (Snapchat Ads (4)):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Spend]' derivation='Sum' name='[sum:Spend:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1298444132575100931]' derivation='User' name='[usr:Calculation_1298444132575100931:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1298444132575395844]' derivation='User' name='[usr:Calculation_1298444132575395844:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1298444132579782662]' derivation='User' name='[usr:Calculation_1298444132579782662:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Calculation_1298444132574486530:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Calculation1:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[__tableau_internal_object_id__].[cnt:Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132575395844:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132575100931:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Impressions:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[avg:1:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[cnt:1:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[ctd:1:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[min:1:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:1:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:1:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132577648645:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Impressions (Snapchat Ads (4)):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Spend:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Spend (Snapchat Ads (4)):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132571029505:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132579782662:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Percent of total:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Percent of total (copy):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Calculation2:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Snapchat Ads (2) (WHOLE DATA).csv' id='Snapchat Ads (2) (WHOLE DATA).csv_B9491AF89343449DA6668D3AF31C997D'>
+            <properties context=''>
+              <relation connection='textscan.1w3455a1em1yq713ppmly0wwbh2m' name='Snapchat Ads (2) (WHOLE DATA).csv' table='[Snapchat Ads (2) (WHOLE DATA)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Ad ID (Snapchat Ads (4))' ordinal='0' />
+                  <column datatype='string' name='Ad ID' ordinal='1' />
+                  <column datatype='string' name='Advanced Demographics' ordinal='2' />
+                  <column datatype='string' name='AgeBracket' ordinal='3' />
+                  <column datatype='string' name='BillingAddress (Snapchat Ads (4))' ordinal='4' />
+                  <column datatype='string' name='BillingAddress' ordinal='5' />
+                  <column datatype='integer' name='Calculation1' ordinal='6' />
+                  <column datatype='string' name='Dynamic tooltip' ordinal='7' />
+                  <column datatype='integer' name='Calculation2' ordinal='8' />
+                  <column datatype='integer' name='Percent of total' ordinal='9' />
+                  <column datatype='integer' name='1' ordinal='10' />
+                  <column datatype='string' name='CandidateBallotInformation (Snapchat Ads (4))' ordinal='11' />
+                  <column datatype='string' name='CandidateBallotInformation' ordinal='12' />
+                  <column datatype='string' name='Country (Snapchat Ads (4))' ordinal='13' />
+                  <column datatype='string' name='Country' ordinal='14' />
+                  <column datatype='string' name='Creative Properties (Snapchat Ads (4))' ordinal='15' />
+                  <column datatype='string' name='Creative Properties' ordinal='16' />
+                  <column datatype='string' name='CreativeUrl (Snapchat Ads (4))' ordinal='17' />
+                  <column datatype='string' name='CreativeUrl' ordinal='18' />
+                  <column datatype='string' name='Electoral District (Snapchat Ads (4))' ordinal='19' />
+                  <column datatype='string' name='Electoral District' ordinal='20' />
+                  <column datatype='string' name='EndDate (Snapchat Ads (4))' ordinal='21' />
+                  <column datatype='string' name='EndDate' ordinal='22' />
+                  <column datatype='string' name='Gender' ordinal='23' />
+                  <column datatype='integer' name='Impressions (Snapchat Ads (4))' ordinal='24' />
+                  <column datatype='integer' name='Impressions' ordinal='25' />
+                  <column datatype='string' name='Interests' ordinal='26' />
+                  <column datatype='string' name='Language' ordinal='27' />
+                  <column datatype='string' name='Location Type (Snapchat Ads (4))' ordinal='28' />
+                  <column datatype='string' name='Location Type' ordinal='29' />
+                  <column datatype='string' name='Metro Area (Snapchat Ads (4))' ordinal='30' />
+                  <column datatype='string' name='Metro Area' ordinal='31' />
+                  <column datatype='integer' name='Number of Records' ordinal='32' />
+                  <column datatype='string' name='OS Type (Snapchat Ads (4))' ordinal='33' />
+                  <column datatype='string' name='OS Type' ordinal='34' />
+                  <column datatype='string' name='OrganizationName (Snapchat Ads (4))' ordinal='35' />
+                  <column datatype='string' name='OrganizationName' ordinal='36' />
+                  <column datatype='string' name='PayingAdvertiserName (Snapchat Ads (4))' ordinal='37' />
+                  <column datatype='string' name='PayingAdvertiserName' ordinal='38' />
+                  <column datatype='real' name='Percent of total (copy)' ordinal='39' />
+                  <column datatype='string' name='Pivot Field Names' ordinal='40' />
+                  <column datatype='string' name='Pivot Field Values' ordinal='41' />
+                  <column datatype='string' name='Region (Snapchat Ads (4))' ordinal='42' />
+                  <column datatype='string' name='Region' ordinal='43' />
+                  <column datatype='string' name='Segments' ordinal='44' />
+                  <column datatype='integer' name='Spend (Snapchat Ads (4))' ordinal='45' />
+                  <column datatype='integer' name='Spend' ordinal='46' />
+                  <column datatype='string' name='StartDate (Snapchat Ads (4))' ordinal='47' />
+                  <column datatype='string' name='StartDate' ordinal='48' />
+                  <column datatype='string' name='Targeting Geo - Postal Code (Snapchat Ads (4))' ordinal='49' />
+                  <column datatype='string' name='Targeting Geo - Postal Code' ordinal='50' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Countries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Snapchat Ads' name='federated.0xz10na10jo7r70ztxfha03hdp1u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xz10na10jo7r70ztxfha03hdp1u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country]' derivation='CountD' name='[ctd:Country:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xz10na10jo7r70ztxfha03hdp1u].[ctd:Country:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&lt;</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>[federated.0xz10na10jo7r70ztxfha03hdp1u].[ctd:Country:qk]</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{10650D9B-CFB2-4F76-B30F-1883A708F3F6}' />
+    </worksheet>
+    <worksheet name='Donut'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Snapchat Ads (2) (WHOLE DATA)' name='federated.1ou74zy1obi6oj11zciba0mhlt6g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ou74zy1obi6oj11zciba0mhlt6g'>
+            <column datatype='integer' name='[Calculation1]' role='measure' type='quantitative' />
+            <column caption='MIN(1)' datatype='integer' name='[Calculation_1298444132577648645]' role='measure' type='quantitative' user:unnamed='Donut'>
+              <calculation class='tableau' formula='MIN(1)' />
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation1]' derivation='None' name='[none:Calculation1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1298444132577648645]' derivation='User' name='[usr:Calculation_1298444132577648645:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Calculation1:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Calculation1:qk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132577648645:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ou74zy1obi6oj11zciba0mhlt6g].[usr:Calculation_1298444132577648645:qk] + [federated.1ou74zy1obi6oj11zciba0mhlt6g].[sum:Number of Records:qk])</rows>
+        <cols>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Pivot Field Names:nk]</cols>
+      </table>
+      <simple-id uuid='{117A3714-B579-4066-9DFA-D8F712E901F1}' />
+    </worksheet>
+    <worksheet name='Impression'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Snapchat Ads' name='federated.0xz10na10jo7r70ztxfha03hdp1u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xz10na10jo7r70ztxfha03hdp1u'>
+            <column datatype='integer' name='[Impressions]' role='measure' type='quantitative' />
+            <column-instance column='[Impressions]' derivation='Sum' name='[sum:Impressions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Impressions:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='15'>&lt;</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='15'>[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Impressions:qk]</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.3293370008468628' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6E7C017B-D91B-4027-A0F1-2AD088C0FFDF}' />
+    </worksheet>
+    <worksheet name='No of Ads chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Snapchat Ads' name='federated.0xz10na10jo7r70ztxfha03hdp1u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xz10na10jo7r70ztxfha03hdp1u'>
+            <column datatype='string' name='[Ad ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Ad ID]' derivation='Count' name='[cnt:Ad ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]' field-type='quantitative' scale='symlog' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]' scope='rows' value='' />
+            <format attr='display' class='0' field='[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]> OF THE SNAPCHAT ADS IN THE DATASET ARE FROM <[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run fontcolor='#787878'>Country:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Ad ID:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xz10na10jo7r70ztxfha03hdp1u].[cnt:Ad ID:qk]</rows>
+        <cols>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{22F9C5C6-2984-4161-828D-1A48A0D60365}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Snapchat Ads' name='federated.0xz10na10jo7r70ztxfha03hdp1u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xz10na10jo7r70ztxfha03hdp1u'>
+            <column caption='Age Bracket' datatype='string' name='[AgeBracket]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' />
+            <column-instance column='[AgeBracket]' derivation='None' name='[none:AgeBracket:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:AgeBracket:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Number of Records:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:AgeBracket:nk]</rows>
+        <cols>[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Number of Records:qk]</cols>
+      </table>
+      <simple-id uuid='{CCDD481C-1658-40E8-9A28-3B67EAF69A12}' />
+    </worksheet>
+    <worksheet name='Spend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Snapchat Ads' name='federated.0xz10na10jo7r70ztxfha03hdp1u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xz10na10jo7r70ztxfha03hdp1u'>
+            <column datatype='integer' name='[Spend]' role='measure' type='quantitative' />
+            <column-instance column='[Spend]' derivation='Sum' name='[sum:Spend:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Spend:qk]' value='c&quot;$&quot;#,##0.0;(&quot;$&quot;#,##0.0)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Spend:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&lt;</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>[federated.0xz10na10jo7r70ztxfha03hdp1u].[sum:Spend:qk]</run>
+                <run bold='true' fontcolor='#4e79a7' fontsize='14'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8B3ACB51-4734-4F89-A811-663D67DA24B7}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='No of Ads chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Ad ID:nk]</field>
+            <field>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{014DACAF-623E-4F1A-B326-652AF3924A8A}' />
+    </window>
+    <window class='worksheet' name='Impression'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AC3823D0-C543-492B-B804-867188C46CDE}' />
+    </window>
+    <window class='worksheet' name='Countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7BCE7D67-CB7C-4D26-9B79-496FC137E1EA}' />
+    </window>
+    <window class='worksheet' name='Spend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{28A18220-7BDE-4E1B-90D5-1FC34006BE7C}' />
+    </window>
+    <window class='worksheet' name='Donut'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Calculation1:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[:Measure Names]</field>
+            <field>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Pivot Field Names:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A53B97DD-EB79-459F-8230-4A7D930BDA71}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xz10na10jo7r70ztxfha03hdp1u].[none:AgeBracket:nk]</field>
+            <field>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Ad ID (Snapchat Ads (4)):nk]</field>
+            <field>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:Ad ID:nk]</field>
+            <field>[federated.1ou74zy1obi6oj11zciba0mhlt6g].[none:AgeBracket:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0E5BDF8A-5DA2-440B-9526-6915D7476AC9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='36' name='Countries' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAkCAYAAAA5DDySAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAADwElEQVRoge2YXWxTZRjHf6efa9cPRrvP0HXLNsYGW7biVhAJc6jMLDNixkzUK8WYGEzA
+      xFtj4o03JMZgNME7jclIZJL5EbhAM3SDMiYjTmFlUnS0c7B1X10/zzlebBZqN4kx4ZyE/i7f
+      Pk/7P78+79tzKsiyLPMQo1E6gNLkBCgdQGlyApQOoDQ5AUoHUJqcAKUDKE1OgNIBlCYnQOkA
+      SpMToHQApXnoBeiUDrAe8aTIwOUA3164zh+3F0gkRTQagVKHle49dbQ1VaDRCFl90+EIn565
+      wvDVIMvxJDqthoqSDbz0VCNN1cUIQmaPoMZ/hGRZ5sV3+4jEEuvWtDVVcOi5VvS6u0M8MHqT
+      Yyd9xJNiVr1GENjXWsUrnZ6MHlVOQDSRIhJL4C620/P4Vjy1pZiNepaiCU79cI2+c78yMHqT
+      xqpi9m6vBOBGKMwnX42QTEnsanBxsNPDRpuJ+UicE9+N8c15P6d9E1SWFrCvtSr9Wao9Aw7t
+      b+H9Nzp4rLEcs1EPgMVk4IUntuGt34Qky1waD6brz44EmI/EeaS2jCMHdrLRZgLAnm/kYGcz
+      XY9uRpJl+gfHmV+KpftUKcCo0/JkS9Wae1wQBEodloy1aDzF9VuzALTWlWWM+N89Ha3VbLDk
+      EZpZxL9aCyoVoNWuH2tmfpnBnycBcBXZAZCREUUJAKNh7V3ttJtxF9tJiRL+SZULWI/pcIT3
+      Pv+RW7cXKHNa2etZ2f8mg47CgnwAzo3+TjIlZfUa9FosZgMAwTuL6XVVHoL3Mh2O8PGpYX7y
+      TyHJMnVuJ8ff6qJo9YJhZcQPd+/AajJw2jdB99sn/vU9RemuIFULOD82yQdf+IjEEhj1Wp5v
+      38b+3VvWPBv0Og2vPbMdb/0mPjtzhcDUHClRwqDX4iq00eGtZmhskpHxEA6bOd2nWgHfXw5w
+      7KSPZEqizu3kzZ6dGd/6WgiCQHNNCc01JVmvLS7H+XrID0B5kS29rloBx/tHEEWZdk8lrz/b
+      knWy/1cmgmGmZpewmo3UuBzpdVUegqIosRRNsMXt5NUuz/+++KVogt6zY8QSKeornLgKVT4B
+      f4YjADztrU7fBN2PmYUoH315kV0N5XhqSrBb8pAkmYngLB/2DXMjFMZiMtC9pz7jZ1aVAuZW
+      79SO9g5xtHdo3bpal4N3Xm5bkSTL/Baa4+LV4Jq1tnwjh7u9bL5n/EGlAsKLsfsX/YMCq4kj
+      B3bQP3iNXwJ3WFyOA2C35LG7oZye9q3Y841Zfap8GnyQqPIQfJDkBCgdQGn+AjsfNQ9kEdER
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Donut' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='39' name='Impression' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='No of Ads chart' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 6' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='36' name='Spend' width='164'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
